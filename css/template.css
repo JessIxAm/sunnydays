@@ -1,0 +1,207 @@
+/** ALL COMMON USED CLASSES AND ELEMENT'S STYLES ALLROUNDER*/
+/*In alphabetical order */
+/**/
+/**/
+/**/
+
+/*?CLASSES*/
+
+.flex-col{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.flex-row{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: center;
+}
+.hidden{
+     display:none;
+     opacity: 0;
+}
+.pointer{
+     cursor: pointer;
+}
+/******Margin and Padding*/
+.mg-0{
+     margin:0;
+}
+.mg-1{
+
+}
+.mg-2{
+     
+}
+.mg-3{
+     
+}
+
+.mg-4{
+     
+}
+
+.mg-5{
+
+}
+/*horizontal margin only*/
+.mg-x-0{
+     margin-right:0;
+     margin-left:0;
+}
+.mg-x-1{
+     margin-right:0;
+     margin-left:0;
+}
+.mg-x-2{
+     margin-right:0;
+     margin-left:0;
+}         
+.mg-x-3{
+     margin-right:0;
+     margin-left:0;
+}         
+.mg-x-4{
+     margin-right:0;
+     margin-left:0;
+}         
+.mg-x-5{
+     margin-right:0;
+     margin-left:0;
+}         
+/*vertical margin-only*/
+.mg-y-0{
+     margin-top:0;
+     margin-bottom:0;
+}
+.mg-y-1{
+     margin-top:0;
+     margin-bottom:0;
+}
+.mg-y-2{
+     margin-top:0;
+     margin-bottom:0;
+}         
+.mg-y-3{
+     margin-top:0;
+     margin-bottom:0;
+}         
+.mg-y-4{
+     margin-top:0;
+     margin-bottom:0;
+}         
+.mg-y-5{
+     margin-top:0;
+     margin-bottom:0;
+}
+/*padding*/
+.pg-0{
+     padding:0;
+}
+.pg-1{
+     padding:0;
+}
+.pg-2{
+     padding:0;
+}
+.pg-3{
+     padding:0;
+}
+
+.pg-4{
+     padding:0;
+}
+
+.pg-5{
+     padding:0;
+}
+/*horizontal padding only*/
+.pg-x-0{
+     padding-right:0;
+     padding-left:0;
+}
+.pg-x-1{
+     padding-right:0;
+     padding-left:0;
+}
+.pg-x-2{
+     padding-right:0;
+     padding-left:0;
+}         
+.pg-x-3{
+     padding-right:0;
+     padding-left:0;
+}         
+.pg-x-4{
+     padding-right:0;
+     padding-left:0;
+}         
+.pg-x-5{
+     padding-right:0;
+     padding-left:0;
+}         
+/*vertical padding-only*/
+.pg-y-0{
+     padding-top:0;
+     padding-bottom:0;
+}
+.pg-y-1{
+     padding-top:00;
+     padding-bottom:00;
+}
+.pg-y-2{
+     padding-top:00;
+     padding-bottom:00;
+}         
+.pg-y-3{
+     padding-top:00;
+     padding-bottom:00;
+}         
+.pg-y-4{
+     padding-top:00;
+     padding-bottom:00;
+}         
+.pg-y-5{
+     padding-top:00;
+     padding-bottom:00;
+}
+
+
+
+
+/*?ELEMENTS*/
+*,
+*::after,
+**::before{
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+}
+a,
+a:focus,
+a:hover,
+a:visited{
+     cursor:pointer;
+     color:inherit;
+     text-decoration:none;
+}
+body{
+     text-rendering: optimizeLegibility;
+     -webkit-font-smoothing: antialiased;
+     -webkit-overflow-scrolling: touch;
+}
+html{
+     overflow-x: hidden;
+     font-size:16px;
+     
+}
+img{
+     max-width: 100%;
+     max-height: 100%;
+}
+li{
+     list-style-type: none;
+}
+
